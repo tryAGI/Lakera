@@ -46,11 +46,11 @@ namespace Lakera
         /// <param name="flagged">
         /// Whether the content was flagged by any active detector.
         /// </param>
-        /// <param name="categories">
-        /// Per-category flagging results.
-        /// </param>
         /// <param name="results">
         /// Detailed results from each detector that ran.
+        /// </param>
+        /// <param name="categories">
+        /// Per-category flagging results.
         /// </param>
         /// <param name="breakdown">
         /// Per-message breakdown with detailed results.
@@ -65,8 +65,8 @@ namespace Lakera
             global::System.Collections.Generic.IList<global::Lakera.DetailedMessageBreakdown>? breakdown)
         {
             this.Flagged = flagged;
-            this.Results = results ?? throw new global::System.ArgumentNullException(nameof(results));
             this.Categories = categories;
+            this.Results = results ?? throw new global::System.ArgumentNullException(nameof(results));
             this.Breakdown = breakdown;
         }
 
