@@ -6,6 +6,7 @@ namespace Lakera
     public sealed partial class LakeraClient
     {
         /// <inheritdoc cref="LakeraClient(global::System.Net.Http.HttpClient?, global::System.Uri?, global::System.Collections.Generic.List{global::Lakera.EndPointAuthorization}?, bool)"/>
+
         public LakeraClient(
             string apiKey,
             global::System.Net.Http.HttpClient? httpClient = null,
