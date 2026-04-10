@@ -12,11 +12,13 @@ namespace Lakera
         /// including exact text spans and detector confidence values.
         /// </summary>
         /// <param name="request"></param>
+        /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
         /// <param name="cancellationToken">The token to cancel the operation with</param>
         /// <exception cref="global::Lakera.ApiException"></exception>
         global::System.Threading.Tasks.Task<global::Lakera.GuardResultsResponse> GuardResultsAsync(
 
             global::Lakera.GuardRequest request,
+            global::Lakera.AutoSDKRequestOptions? requestOptions = default,
             global::System.Threading.CancellationToken cancellationToken = default);
         /// <summary>
         /// Get detailed detection results<br/>
@@ -38,6 +40,7 @@ namespace Lakera
         /// <param name="metadata">
         /// Optional metadata to attach to this screening request for logging/tracking.
         /// </param>
+        /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
         /// <param name="cancellationToken">The token to cancel the operation with</param>
         /// <exception cref="global::System.InvalidOperationException"></exception>
         global::System.Threading.Tasks.Task<global::Lakera.GuardResultsResponse> GuardResultsAsync(
@@ -45,6 +48,7 @@ namespace Lakera
             global::Lakera.Policy? policy = default,
             bool? breakdown = default,
             object? metadata = default,
+            global::Lakera.AutoSDKRequestOptions? requestOptions = default,
             global::System.Threading.CancellationToken cancellationToken = default);
     }
 }
