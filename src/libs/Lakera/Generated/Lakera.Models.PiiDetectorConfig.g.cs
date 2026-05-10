@@ -67,5 +67,6 @@ namespace Lakera
         public PiiDetectorConfig()
         {
         }
+
     }
 }

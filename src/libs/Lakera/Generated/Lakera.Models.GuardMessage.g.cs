@@ -54,5 +54,6 @@ namespace Lakera
         public GuardMessage()
         {
         }
+
     }
 }
