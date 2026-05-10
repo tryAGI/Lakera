@@ -76,5 +76,6 @@ namespace Lakera
         public GuardResultsResponse()
         {
         }
+
     }
 }

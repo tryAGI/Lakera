@@ -118,5 +118,6 @@ namespace Lakera
         public Categories()
         {
         }
+
     }
 }
