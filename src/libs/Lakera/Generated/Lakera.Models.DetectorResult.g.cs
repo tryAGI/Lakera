@@ -74,5 +74,6 @@ namespace Lakera
         public DetectorResult()
         {
         }
+
     }
 }

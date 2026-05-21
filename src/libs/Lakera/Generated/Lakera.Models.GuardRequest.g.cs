@@ -77,5 +77,6 @@ namespace Lakera
         public GuardRequest()
         {
         }
+
     }
 }

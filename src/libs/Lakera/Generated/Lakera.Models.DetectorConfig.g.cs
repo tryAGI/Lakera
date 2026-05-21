@@ -56,5 +56,6 @@ namespace Lakera
         public DetectorConfig()
         {
         }
+
     }
 }

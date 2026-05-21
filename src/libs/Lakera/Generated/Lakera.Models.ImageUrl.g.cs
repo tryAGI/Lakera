@@ -42,5 +42,6 @@ namespace Lakera
         public ImageUrl()
         {
         }
+
     }
 }
