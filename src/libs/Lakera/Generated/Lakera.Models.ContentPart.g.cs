@@ -4,7 +4,7 @@
 namespace Lakera
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class ContentPart
     {
@@ -23,7 +23,7 @@ namespace Lakera
         public string? Text { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("image_url")]
         public global::Lakera.ImageUrl? ImageUrl { get; set; }

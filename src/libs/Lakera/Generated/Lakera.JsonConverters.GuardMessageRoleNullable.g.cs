@@ -20,7 +20,7 @@ namespace Lakera.JsonConverters
                     {
                         return global::Lakera.GuardMessageRoleExtensions.ToEnum(stringValue);
                     }
-                    
+
                     break;
                 }
                 case global::System.Text.Json.JsonTokenType.Number:

@@ -9,11 +9,11 @@ namespace Lakera
     public enum ContentPartType
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         ImageUrl,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Text,
     }

@@ -4,7 +4,7 @@
 namespace Lakera
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class DetailedMessageBreakdown
     {

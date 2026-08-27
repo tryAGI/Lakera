@@ -4,7 +4,7 @@
 namespace Lakera
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class GuardMessage
     {
@@ -17,7 +17,7 @@ namespace Lakera
         public required global::Lakera.GuardMessageRole Role { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("content")]
         [global::System.Text.Json.Serialization.JsonConverter(typeof(global::Lakera.JsonConverters.OneOfJsonConverter<string, global::System.Collections.Generic.IList<global::Lakera.ContentPart>>))]
