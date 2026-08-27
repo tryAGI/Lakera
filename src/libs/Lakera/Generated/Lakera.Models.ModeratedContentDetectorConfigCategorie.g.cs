@@ -4,28 +4,28 @@
 namespace Lakera
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public enum ModeratedContentDetectorConfigCategorie
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Harassment,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Hate,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         SelfHarm,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Sexual,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Violence,
     }
