@@ -30,6 +30,7 @@ namespace Lakera
             typeof(global::Lakera.JsonConverters.UnixTimestampJsonConverter),
         })]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Lakera.JsonSerializerContextTypes))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<object>), TypeInfoPropertyName = "SystemCollectionsGeneric_ObjectList")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Lakera.GuardRequest))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<global::Lakera.GuardMessage>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Lakera.GuardMessage))]
